@@ -1,0 +1,229 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #242423;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.ngeri:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bolder;
+    float: left;
+    font-family: 'Montserrat';
+    color: #333533;
+}
+
+a.signup {
+    background: #EFDC9E;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #3F392B;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.signup:hover {
+    background: #EAE9CF;
+    text-decoration: none;
+}
+
+.learn {
+    float: right;
+    margin-right: 430px;
+    margin-top: 45px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #F5CB5C;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #333533;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.kolom {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: #E8EDDF;
+    font-family: 'Courier New', Courier, monospace;
+    width: auto;
+}
+
+.kolom .deskripsi {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    color: #E8EDDF;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #E8EDDF;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.profil-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-profil {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
+
+.kartu-profil img {
+    width: 80%;
+    border-radius: 5%;
+}
+
+.kartu-profil p {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #E8EDDF;
+}
+
+#contact {
+    background: #333533;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #E8EDDF;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-profil {
+        width: 50%;
+    }
+}
